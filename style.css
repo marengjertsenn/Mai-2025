@@ -73,3 +73,19 @@ header>h1 {
     max-width: 600px;
     text-align: center;
 }
+
+.oppskrift-detaljer {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+.oppskrift-detaljer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    padding: 10px;
+}

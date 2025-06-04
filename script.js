@@ -37,3 +37,12 @@ window.ontouchend = e => handleOnUp(e);
 
 window.onmousemove = e => handleOnMove(e);
 window.ontouchmove = e => handleOnMove(e.touches[0]);
+
+function visOppskrift(boksId) {
+    const boks = document.getElementById(boksId);
+    if (boks.style.display === "block") {
+        boks.style.display = "none";
+    } else {
+        boks.style.display = "block";
+    }
+}
