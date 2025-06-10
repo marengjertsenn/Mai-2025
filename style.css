@@ -51,12 +51,12 @@ header>h1 {
     position: relative;
     left: 0;
     top: 0;
-    transform: none; 
+    transform: none;
     padding: 40px 4vmin 0 4vmin;
     z-index: 1;
 }
 
-#bokser{
+#bokser {
     display: flex;
     font-size: 20px;
     flex-direction: column;
@@ -65,7 +65,7 @@ header>h1 {
     gap: 20px;
 }
 
-.oppskriftene{
+.oppskriftene {
     background-color: white;
     padding: 30px;
     border-radius: 52px;
@@ -83,6 +83,7 @@ header>h1 {
     max-width: 600px;
     text-align: center;
 }
+
 .oppskrift-detaljer img {
     max-width: 100%;
     height: auto;
@@ -90,15 +91,17 @@ header>h1 {
     padding: 10px;
 }
 
-.fa-lemon{
+.fa-lemon {
     font-size: 50px;
     color: rgb(248, 248, 179);
 }
-.fa-cookie{
-    font-size: 50px;                    
+
+.fa-cookie {
+    font-size: 50px;
     color: rgb(228, 194, 152);
 }
-.fa-blender{
+
+.fa-blender {
     font-size: 50px;
     color: lightcoral;
 }
